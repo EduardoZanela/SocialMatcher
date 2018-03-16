@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/the_eiffel_tower_paris"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/logging_background"
+            android:layout_width="270dp"
+            android:layout_height="270dp">
+            <TextView
+                android:includeFontPadding="false"
+                android:fontFamily="@font/merienda_regular"
+                android:gravity="bottom"
+                android:textSize="25pt"
+                android:textColor="@color/white"
+                android:text="Social"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:includeFontPadding="false"
+                android:fontFamily="@font/merienda_regular"
+                android:textSize="25pt"
+                android:text="Matcher"
+                android:textColor="#f41f3f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="0.5"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+            <Button
+                android:elevation="50dp"
+                android:fontFamily="@font/rozha_one_regular"
+                android:background="@drawable/backgroud_facebook"
+                android:layout_marginRight="30dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <Button
+                android:elevation="50dp"
+                android:fontFamily="@font/rozha_one_regular"
+                android:background="@drawable/background_email"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <Button
+                android:layout_marginLeft="30dp"
+                android:elevation="50dp"
+                android:fontFamily="@font/rozha_one_regular"
+                android:background="@drawable/background_google"
+                android:textSize="10pt"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
